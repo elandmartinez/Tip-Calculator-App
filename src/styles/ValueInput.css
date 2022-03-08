@@ -1,0 +1,13 @@
+.value-input {
+    position: relative;
+}
+
+.value-input p {
+    color: inherit;
+}
+.value-input img {
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+    z-index: 1;
+}
