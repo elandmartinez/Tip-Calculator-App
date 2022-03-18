@@ -1,13 +1,41 @@
+@import "Vars.css";
+
 .value-input {
     position: relative;
 }
 
-.value-input p {
-    color: inherit;
-}
-.value-input img {
+.icon {
     position: absolute;
     bottom: 12px;
     left: 15px;
     z-index: 1;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    font-family: inherit;
+    font-weight: inherit;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--light-grayish-cyan-2);
+    margin-top: 5px;
+    text-align: end;
+    padding: 0 15px 0 40px;
+}
+
+
+.input:focus {
+    outline-color: var(--slight-dark-cyan);
+}
+
+.input.error {
+    outline-color: var(--slight-dark-orange);
+}
+
+.error-message {
+    color: var(--slight-dark-orange);
+    font-size: 12px;
+    position: absolute;
+    bottom: -23px;
 }

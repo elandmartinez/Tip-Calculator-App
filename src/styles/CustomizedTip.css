@@ -5,17 +5,14 @@
     max-height: 100%;
 }
 
-.not-valid-value {
-    margin-bottom: 20px;
-}
-
 .customized-tip-input {
     height: 100%;
     width: 100%;
     border: 0px;
     font-size: 20px;
-    padding: 5px 5px;
+    padding: 5px 10px;
     font-weight: 700;
+    font-family: inherit;
     text-align: end;
     background-color: var(--light-grayish-cyan-2);
 }
@@ -25,16 +22,15 @@
     outline-color: var(--slight-dark-cyan);
 }
 
-.customized-tip .input-warn {
+.error-message-tip {
     position: absolute;
-    top: 45px;  
-    color: orange;
+    bottom: -40px;
+    color: var(--slight-dark-orange);
+    font-size: 12px;
 }
 
-.customized-tip .max-value-warn {
-    position: absolute;
-    top: 45px;
-    color: orange;
+.customized-tip-input.error {
+    outline-color: var(--slight-dark-orange);
 }
 
 @media(min-width:800px) {

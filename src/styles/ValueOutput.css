@@ -7,22 +7,24 @@
     font-size: 14px;
 }
 
+.output-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.output-value {
+    font-size: 28px;
+    color: var(--slight-dark-cyan);
+}
+
 .value-output span {
     color: var(--dark-grayish-cyan-2);
     font-size: 12px;
 }
 
-.output-check {
-    color: #10c9ae;
-    max-width: 70%;
-}
-
-.output-check p {
-    font-size: 30px;
-}
-
 @media(min-width: 800px) {
-    .output-check p {
+    .output-value {
         font-size: 35px;
     }
 }

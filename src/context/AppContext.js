@@ -1,10 +1,10 @@
 import React, {createContext, useContext} from "react";
-import GetAppContextStates from "./GetAppContextStates";
+import useAppState from "../hooks/useAppState/useAppState";
 
 const AppContext = createContext({});
 
 export function AppProvider(props) {
-    const initialState = GetAppContextStates();
+    const initialState = useAppState();
 
     return (
         <AppContext.Provider value={initialState}>

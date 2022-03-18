@@ -1,6 +1,7 @@
 :root {
-    --very-dark-cyan: hsl(183, 100%, 15%);
+    --very-dark-cyan: rgb(0, 73, 77);
     --slight-dark-cyan: #10c9ae;
+    --slight-dark-orange: #db7500;
     --dark-grayish-cyan-1: hsl(186, 14%, 43%);
     --dark-grayish-cyan-2: hsl(184, 14%, 56%);
     --light-grayish-cyan-1: hsl(185, 41%, 84%);

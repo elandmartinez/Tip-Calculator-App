@@ -16,6 +16,7 @@
     max-width: 360px;
     width: 100%;
     height: 85%;
+    max-height: 720px;
     background-color: var(--white);
     border-radius: 25px 25px 0 0;
     padding: 20px;
@@ -35,13 +36,19 @@
     color: orange;
 }
 
+@media(min-width: 360px) {
+    .tip-calculator-cont{
+        height: 75%;
+        border-radius: 25px 25px 25px 25px;
+    }
+}
+
 @media(min-width: 800px) {
     .tip-calculator-cont {
         max-width: 700px;
         height: 400px;
         flex-direction: row;
         justify-content: space-between;
-        border-radius: 25px 25px 25px 25px;
     }
 }
 

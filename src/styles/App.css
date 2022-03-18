@@ -7,7 +7,8 @@
 
 #app {
     width: 100vw;
-    height: 120vh;
+    min-width: 320px;
+    height: 145vh;
     font-family: 'Space Mono', monospace;
     background-color: var(--light-grayish-cyan-1);
     font-weight: 700;
@@ -21,6 +22,12 @@
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
+}
+
+@media(min-height: 700px) {
+    #app {
+        height: 120vh;
+    }
 }
 
 @media(min-width:800px) {

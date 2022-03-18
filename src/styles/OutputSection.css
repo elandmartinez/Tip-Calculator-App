@@ -2,7 +2,8 @@
 
 .output-section {
     width: 100%;
-    height: 35%;
+    height: 30%;
+    max-height: 260px;
     padding: 20px;
     background-color: var(--very-dark-cyan);
     border-radius: 15px;
@@ -15,7 +16,7 @@
 
 .output-values-cont {
     width: 100%;
-    height: 130px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -25,10 +26,11 @@
     width: 100%;
     height: 45px;
     background-color: var(--slight-dark-cyan);
+    color: var(--very-dark-cyan);
     border: 0px;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .output-section button:active {
@@ -39,10 +41,15 @@
     .output-section {
         width: 50%;
         height: 100%;
+        max-height: 100%;
         padding: 50px 30px 30px 30px;
     }
 
     .output-section button {
         height: 40px;
+    }
+
+    .output-values-cont {
+        height: 50%;
     }
 }
