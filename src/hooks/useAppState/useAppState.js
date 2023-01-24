@@ -25,7 +25,7 @@ import {
  * Code review
  * - use actionTypes to avoid typos: done
  * - create utils/constants.js and save there all reusable constants: done
- * - Remove big spaces between elements
+ * - Remove big spaces between elements: done
  */
 
 const useAppState = () => {
